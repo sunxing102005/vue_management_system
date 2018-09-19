@@ -64,10 +64,14 @@
             <template slot-scope="scope">
               <!--<el-button type="primary" size="mini" @click="edit(scope.$index,scope.row)" >编辑</el-button>-->
               <el-button type="primary" size="mini" @click="scope.row.EDIT=true"  v-show="!scope.row.EDIT" >编辑标题</el-button>
-              <el-button type="success" size="mini" @click="scope.row.EDIT=false"  v-show="scope.row.EDIT" >完成编辑</el-button>
+              <el-button type="success" size="mini" @click="submitTitle(scope.row,scope.$index)"  v-show="scope.row.EDIT" >完成编辑</el-button>
               <el-button type="danger" size="mini" @click="deleteUserMan(scope.$index,scope.row.ID)">删除</el-button>
             </template>
-
+          </el-table-column>
+          <el-table-column align="center" label="Drag" width="80">
+            <template slot-scope="scope">
+              <svg-icon class="drag-handler" icon-class="drag"/>
+            </template>
           </el-table-column>
         </el-table>
         <!-- 分页 -->
@@ -140,15 +144,7 @@
     name: 'vTable',
     mounted(){
       //使得表格可以拖拽
-      let _self = this;
-      let el = document.querySelectorAll('.el-table__body-wrapper > table > tbody')[0];
-      let sort = sortable.create(el,{
-        onEnd:(evt)=>{
-          debugger
-          const row = _self.tableList.splice(evt.oldIndex,1)[0];
-          _self.tableList.splice(evt.newIndex,0,row);
-        }
-      });
+
     },
     data() {
       const valiadateXh = (rule,value,callback)=>{
@@ -228,8 +224,16 @@
         const row = _self.tableList.splice(0,1)[0];
         _self.tableList.splice(1,0,row);
       },
-      finishEditTitle(row){
+      submitTitle(row,index){
         row.EDIT = false;
+        updateUserManage(row).then((rep)=>{
+
+          this.$message({
+            message: '修改成功',
+            type: 'success',
+            duration: 500
+          })
+        })
       },
       editTitle(row){
         row.EDIT = true;
@@ -327,6 +331,24 @@
         this.temp = Object.assign({}, row)
         this.dialogVisible = true;
       },
+      sortTable(){
+        let el = document.querySelectorAll('.el-table__body-wrapper > table > tbody')[0];
+        let _self = this;
+        let sort = sortable.create(el,{
+          ghostClass: 'sortable-ghost',
+          setData: function(dataTransfer) {
+            dataTransfer.setData('Text', '')
+            // to avoid Firefox bug
+            // Detail see : https://github.com/RubaXa/Sortable/issues/1012
+          },
+          onEnd:(evt)=>{
+            let tt = _self.tableList;
+            debugger
+            const row = _self.tableList.splice(evt.oldIndex,1)[0];
+            _self.tableList.splice(evt.newIndex,0,row);
+          }
+        });
+      },
       fetchData(){
         const param = {
           title:this.cname,
@@ -334,15 +356,16 @@
         };
         getList(param).then(response=>{
           const res = response.data;
-debugger
 
           const data = res.filter((row,index)=>{
             let bl =index>=((this.page-1)*this.pageSize)&&index<this.page*this.pageSize
             return bl;
           });
-
           this.tableList =data;
           this.total = res.length;
+          this.$nextTick(()=>{
+            this.sortTable();
+          })
         })
       }
     }
@@ -355,5 +378,10 @@ debugger
 
   .el-table .success-row {
     background-color: azure;
+  }
+  .sortable-ghost{
+    opacity: .8;
+    color: #fff!important;
+    background: #42b983!important;
   }
 </style>

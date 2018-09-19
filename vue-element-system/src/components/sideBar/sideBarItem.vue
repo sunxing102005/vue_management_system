@@ -52,3 +52,8 @@ export default {
   }
 }
 </script>
+<style>
+  .el-submenu,.el-menu-item{
+    text-align:left;
+  }
+</style>

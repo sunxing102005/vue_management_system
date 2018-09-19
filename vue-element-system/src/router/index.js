@@ -53,7 +53,7 @@ export const constRout = [
         path: 'two',
         name: 'editorGrid',
         meta: {
-          title: '选项2', icon: 'tree'
+          title: '表格2', icon: 'table'
         },
         component: editGrid
       }
@@ -67,6 +67,7 @@ export const constRout = [
     children: [
       {
         path: 'index',
+        // name:'',
         meta: {
           title: '选项1',
           icon: 'tree'
@@ -75,7 +76,7 @@ export const constRout = [
       }
     ],
     meta: {
-      title: '标签页', icon: 'form'
+      title: '标签页', icon: 'tab'
     }
 
   },
@@ -87,7 +88,7 @@ export const constRout = [
     children: [
       {
         path: 'editor',
-        name:'editor',
+        // name:'editor',
         meta: {
           title: 'quillEditor',
           icon: 'tree'
@@ -132,7 +133,7 @@ export const asyncRouteMap = [
       }
     ],
     meta: {
-      title: '图标', icon: 'form', roles: ['admin']
+      title: '图标', icon: 'icon', roles: ['admin']
     }
 
   },

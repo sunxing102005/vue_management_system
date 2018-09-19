@@ -2,7 +2,7 @@
   <div class="login-container">
     <el-form autoComplete="on" status-icon :model="loginForm" :rules="loginRules" ref="loginForm" label-position="left" label-width="0px"
              class="card-box login-form">
-      <h3 class="title">vue-element-admin</h3>
+      <h3 class="title">vue-element-system</h3>
       <el-form-item prop="username">
         <span class="svg-container svg-container_login">
           <svg-icon icon-class="user" />

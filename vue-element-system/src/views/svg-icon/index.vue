@@ -32,6 +32,7 @@ export default {
     }
   },
   mounted() {
+    debugger
     const iconsMap = icons.state.iconsMap.map((i) => {
       console.log(i.default.id)
       return i.default.id.split('-')[1]
@@ -40,7 +41,7 @@ export default {
   },
   methods: {
     generateIconCode(symbol) {
-      return `<svg-icon icon-class="${symbol}" />`
+      return `${symbol}`
     },
     handleClipboard(text, event) {
       clipboard(text, event)

@@ -11,7 +11,7 @@
     </svg>
   </div>
 </template>
-<script scoped>
+<script >
 
 export default{
   props:{

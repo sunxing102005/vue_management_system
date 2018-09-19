@@ -35,7 +35,6 @@ export default {
   methods:{
   getBreadcrumb(){
     let matched = this.$route.matched.filter(item=> item.name);
-
     let firstMatch = matched[0];
     if(firstMatch&&firstMatch.name!='welcome'){
       matched = [{ path: '/welcome', meta: { title: '首页' }}].concat(matched);
