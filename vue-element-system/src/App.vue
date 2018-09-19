@@ -11,13 +11,4 @@ export default {
 </script>
 
 <style>
-.topRouter{
-  height: 50px;
-  width: 100%;
-
-}
-
-.sidebar-container{
-
-}
 </style>
