@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61e5da36-caf7-43bd-8226-6f8e542fba10" name="默认的" comment="test">
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/.idea/testHello.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/config/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/config/dbhelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/config/token.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/css/app.f34e8ac182f6234b434db3135f9c58ad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/css/app.f34e8ac182f6234b434db3135f9c58ad.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/img/404.a57b6f3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/0.0eb6a1f5a0eb9fbc6a6c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/0.0eb6a1f5a0eb9fbc6a6c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/1.c3691280c14e557444d5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/1.c3691280c14e557444d5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/2.2bfda388bf32cf84cfaf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/2.2bfda388bf32cf84cfaf.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/3.ba1cc802e3e4600b2ffb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/3.ba1cc802e3e4600b2ffb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/4.496dbc1930b00234ff8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/4.496dbc1930b00234ff8f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/5.8c30faad515324aab582.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/5.8c30faad515324aab582.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/6.0e12046baa76ba89d494.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/6.0e12046baa76ba89d494.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/7.36be9784c2b45272ecfd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/7.36be9784c2b45272ecfd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/app.7747e123992fc01e8002.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/app.7747e123992fc01e8002.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/manifest.2825f93704e922adcf00.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/manifest.2825f93704e922adcf00.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/vendor.3455563758b2979e73ef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/public/static/js/vendor.3455563758b2979e73ef.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/routes/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/routes/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/06dcc0cabf93aa7b1cac91ac8e86a626.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/0a6de698f0a411ab8b055cc77c5c85b1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/11b4a9185ac5852358e8931721473d65.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/141a2946f9b3547087e681a4bc2323d1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/1f5afbc11aa0c31035d4ce4603b8cbe1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/3831781a08d261ffea795d041acfb67a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/3b7d7908a514e2bbc2108f04d2dff147.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/3c7a51ff78f04bea824c9207d7f19c16.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/44fb182f5976603429c0cfdfddaa15ca.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/480d1dea3fe09b187f66a00fe8fdf69e.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/4d39a143f6073fab587f633b4e5338e5.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/5206a728d089193ea2468f2c3e964689.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/59a59c7523c9b18afb7bf65f75ac4142.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/5ba15220b30919d6338fbe803a1f9229.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/5f73aab4a13fb54ef6c7ec5f7e28e318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/6333f824ea059b5fa8af3474bf800168.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/6adfb806b45fcdb6031df639a3fb30db.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/6e57564793aaefde3d4cfed386235a38.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/761abb7d7eef8e565a5895a555126b62.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/77951ad92099787a6c8864ccb1b4b70e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/7923db7d84bda87cc87cb62167fe89f7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/8567a81f302f745d142cde200a984111.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/8afb0574239df8e3e37b4060c4dc8fd9.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/8d9d0de6bcfa716f6aa96bb76012d1e4.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/94dfa869c81f50af34a6180f202b2326.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/96b832f27a90793fc0a93a3961bf653a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/a257917a1bf45178b8dbe4c1a0b4f8fd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/a8e5495cb6330f7459ae4edc2215664e.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/b05cfcefced03642065e9b491a8f91d8.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/bb450d29b510f53fbc0773430b9e633f.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/c2d23e939d362453aaecf65e22a3fa9c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/c758a2204d978887e2c89da44d6737c8.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/c854e1b5e7e1db335f101cc2b0134051.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/c968eaacb3385b1631e162a95cf4bb2b.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/ce264128dea8d3616935d135f0e56d6e.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/d28f65297be80465144a5f23bbfbfb80.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/d5eda03dd12ef7fc77d6ee5e7a93278b.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/d8aecc006f64cde25956f7ba4d6f365a.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/d9831593fd92634ecef9db2773af4c8b.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/dd3e31abd468d0728f9c55a2e5d7f3d8.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/e6ccb72b7be178eb08d3cdf2656bf169.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/f990186c8c09c9c9a1be48db416c0ee1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/uploads/fb816e0fa05f99dc037a350674a3fd19.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/view/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/view/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/view/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-express-backstage/websocket/wsServer.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue-element-system/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-element-system/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue-element-system" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vue-element-system/index.html" />
+        <option value="$PROJECT_DIR$/vue-element-system/src/App.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/vue-element-system/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="450" />
+    <option name="y" value="120" />
+    <option name="width" value="1400" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vue_management_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue_management_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue_management_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue_management_system" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-element-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue_management_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue_management_system" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-element-system" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue_management_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue_management_system" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-element-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61e5da36-caf7-43bd-8226-6f8e542fba10" name="默认的" comment="" />
+      <created>1537326581039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537326581039</updated>
+      <workItem from="1537326582224" duration="3467000" />
+      <workItem from="1537330674793" duration="422000" />
+      <workItem from="1537331110119" duration="26000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1537327800905</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537327800905</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1537328140093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537328140093</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1537328214933</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537328214933</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <created>1537328341053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537328341053</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test">
+      <created>1537328728208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537328728208</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test">
+      <created>1537328996195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537328996195</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test">
+      <created>1537330711886</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537330711886</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3915000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="调试" order="7" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="运行" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="消息" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vue-element-system/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-element-system/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-element-system/index.html" />
+    <entry file="file://$PROJECT_DIR$/vue-element-system/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-element-system/package.json" />
+    <entry file="file://$PROJECT_DIR$/vue-element-system/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-element-system/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
